@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Parralax Effect Using JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="centerAlign">
+        <div class="container">
+
+            <div class="box">
+                <div class="imgBx">
+                    <img src="images/1 splash page.png">
+                </div>
+                <div class="contentBx">
+                    <h2> Splash page</h2>
+                    <p>A splash page with two options either sign in or register(if new user).
+                    </p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="images/2.2 registration form.png">
+                </div>
+                <div class="contentBx">
+                    <h2> Registration Form</h2>
+                    <p>A resgitration form for registering new users.
+                    </p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="images/3 sign in form.png">
+                </div>
+                <div class="contentBx">
+                    <h2> Sign-In form</h2>
+                    <p>A sign-in form for registering existing users.
+                    </p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="images/4 user panel.png">
+                </div>
+                <div class="contentBx">
+                    <h2>User Panel</h2>
+                    <p>after successul sign-in user a user is redirected to user panel
+                    </p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="images/5 available ads page.png">
+                </div>
+                <div class="contentBx">
+                    <h2>Available Advertisements</h2>
+                    <p>A page to display all of the available Advertisements.
+                    </p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="images/6.1 search record 1.png">
+                </div>
+                <div class="contentBx">
+                    <h2> Search Bar</h2>
+                    <p>A search bar is provided to search for a particular book(if available).
+                    </p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="images/7 drop ad.png">
+                </div>
+                <div class="contentBx">
+                    <h2>Drop Advertisement form</h2>
+                    <p>A form where a user can drop advertisements for the books he want to sell.
+                    </p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="images/8 my ads.png">
+                </div>
+                <div class="contentBx">
+                    <h2> My Advertisements Page</h2>
+                    <p>A page to display all the advertise,emts posted by the logged-in user
+                    </p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="images/9.2 update ad 2.png">
+                </div>
+                <div class="contentBx">
+                    <h2>Update Advertisement</h2>
+                    <p>A form where user can update the advertisements posted by him
+                    </p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="images/10 delete ad.png">
+                </div>
+                <div class="contentBx">
+                    <h2>Delete Advertisement</h2>
+                    <p>A form where user can delete the advertisements posted by him
+                    </p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="images/11 log out.png">
+                </div>
+                <div class="contentBx">
+                    <h2> Log-Out</h2>
+                    <p>Finally a user logs out after completing his work.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript" src="vanilla-tilt.js"></script>
+        <script type="text/javascript">
+            VanillaTilt.init(document.querySelectorAll(".box"), {
+                max: 5,
+                speed: 900
+            });
+        </script>
+</body>
+
+</html>
